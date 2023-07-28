@@ -3,7 +3,7 @@
 ## Dockerを使ってscratch-guiを利用しよう
 1. Dockerを準備しよう
    Dockerfile
-''' Dockerfile
+``` Dockerfile
 version: '3'
 
 services:
@@ -19,9 +19,9 @@ services:
     volumes:
       - ./:/usr/src/app
     tty: true
-'''
+```
 
-''' docker-compose.yml
+``` docker-compose.yml
 version: '3'
 
 services:
@@ -37,7 +37,7 @@ services:
     volumes:
       - ./:/usr/src/app
     tty: true
-'''
+```
 
 ## 参考資料
 - https://deep.tacoskingdom.com/blog/29
