@@ -17,10 +17,8 @@
       
       RUN apk update && apk upgrade
       
-      RUN apk add --no-cache bash git openssh curl
-      
-      RUN apk add --no-cache python3
-      
+      RUN apk add --no-cache bash git openssh python3 curl
+            
       RUN npm i -g webpack webpack-cli webpack-dev-server
       ```
    - docker-compose.yml
