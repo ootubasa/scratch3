@@ -1,4 +1,6 @@
 # scratch3の拡張機能
+## Dockerを準備しよう
+- Windows10以降の環境であれば、https://www.kagoya.jp/howto/cloud/container/wsl2_docker/ を参考にインストールすれば良いと思います
 
 ## Dockerを使ってscratch-guiを利用しよう
 1. Dockerfileとdocker-compose.ymlを作成しよう
@@ -60,7 +62,7 @@
    bash-5.0$ yarn install
    bash-5.0$ yarn start
    ```
-   そのあと[https://localhost:8601]に接続するとScratchを起動することができる
+   そのあと https://localhost:8601 に接続するとScratchを起動することができる
    
 
 ## 参考資料
