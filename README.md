@@ -1,4 +1,4 @@
-# scratch3の拡張機能
+# scratch3の拡張機能を作ってみよう
 ## Dockerを準備しよう
 - Windows10以降の環境であれば、https://www.kagoya.jp/howto/cloud/container/wsl2_docker/ を参考にインストールすれば良いと思います
 
