@@ -60,7 +60,7 @@
    bash-5.0$ yarn install
    bash-5.0$ yarn start
    ```
-   そのあとhttps://localhost:8601に接続するとScratchを起動することができる
+   そのあと[https://localhost:8601]に接続するとScratchを起動することができる
    
 
 ## 参考資料
