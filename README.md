@@ -4,21 +4,19 @@
 1. Dockerを準備しよう
    - Dockerfile
       ``` Dockerfile
-      version: '3'
+      FROM node:16.18.1-alpine3.16
       
-      services:
-        app:
-          image: scratch3:16.18.1-alpine3.16
-          build: .
-          user: "node:node"
-          environment:
-            NODE_ENV: development
-          ports:
-            - 8073:8073
-            - 8601:8601
-          volumes:
-            - ./:/usr/src/app
-          tty: true
+      WORKDIR /usr/src/app
+      
+      ENV NODE_ENV=development
+      
+      RUN apk update && apk upgrade
+      
+      RUN apk add --no-cache bash git openssh curl
+      
+      RUN apk add --no-cache python3
+      
+      RUN npm i -g webpack webpack-cli webpack-dev-server
       ```
    - docker-compose.yml
       ``` docker-compose.yml
