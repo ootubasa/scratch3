@@ -66,5 +66,6 @@
    
 
 ## 参考資料
+- https://www.kagoya.jp/howto/cloud/container/wsl2_docker/
 - https://deep.tacoskingdom.com/blog/29
 - https://twitter.com/ichiroc/status/1630904665637543936
