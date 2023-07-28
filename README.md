@@ -48,18 +48,18 @@
    ``` bash
    $ docker-compose up -d
    $ docker-compose exec app bash
-   bash-5.0$ whoami
-   bash-5.0$ node --version
-   bash-5.0$ npm --version
-   bash-5.0$ exit
+   bash-5.1$ whoami
+   bash-5.1$ node --version
+   bash-5.1$ npm --version
+   bash-5.1$ exit
    ```
 4. Scratch-guiのインストール
    ``` bash
    $ docker-compose exec app bash
-   bash-5.0$ git clone --depth 1 https://github.com/llk/scratch-gui.git
-   bash-5.0$ cd scratch-gui
-   bash-5.0$ yarn install
-   bash-5.0$ yarn start
+   bash-5.1$ git clone --depth 1 https://github.com/llk/scratch-gui.git
+   bash-5.1$ cd scratch-gui
+   bash-5.1$ yarn install
+   bash-5.1$ yarn start
    ```
    そのあと https://localhost:8601 に接続するとScratchを起動することができる
    
