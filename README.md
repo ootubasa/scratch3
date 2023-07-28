@@ -3,6 +3,7 @@
 - Windows10以降の環境であれば、https://www.kagoya.jp/howto/cloud/container/wsl2_docker/ を参考にインストールすれば良いと思います
 
 ## Dockerを使ってscratch-guiを利用しよう
+- https://deep.tacoskingdom.com/blog/29 通りに行うとErrorが出るので、https://twitter.com/ichiroc/status/1630904665637543936 を参考にして、Node.jsのバージョンを16にしたり、pythonを3に変更したりしています。
 1. Dockerfileとdocker-compose.ymlを作成しよう
    - 作業フォルダの中にDockerfileとdocker-compose.ymlを入れよう
      
