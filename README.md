@@ -62,7 +62,10 @@
    bash-5.1$ yarn start
    ```
    そのあと https://localhost:8601 に接続するとScratchを起動することができる
-   
+
+## サンプルを作ってみよう
+   - 基本的には https://ja.scratch-wiki.info/wiki/Scratch_3.0の拡張機能を作ってみよう の「3. GUI側の設定」「4. 基本の書式」通りに作成すれば動きます。
+   - ただし、「scratch-vm」の配置が記事と異なり、「node_modules\scratch-vm」になるので必要に応じて読み替える必要があります。
 
 ## 参考資料
 - https://www.kagoya.jp/howto/cloud/container/wsl2_docker/
